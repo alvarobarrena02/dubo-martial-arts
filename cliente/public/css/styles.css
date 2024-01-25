@@ -1,0 +1,141 @@
+body {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #212529;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand .d-inline-block {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#inicio {
+    background-image: url(../img/karate-sunset.jpg);
+    background-size: cover;
+    color: #0051ff;
+    text-align: center;
+    height: 50vh;
+    padding: 180px;
+}
+
+.fondo {
+    font-weight: bold;
+}
+
+.intro {
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    padding: 50px;
+    margin-top: 30px;
+    text-align: justify;
+    font-style: italic;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero {
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: #000000;
+    position: relative;
+}
+.hero .hero-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+.hero .hero-title {
+    font-size: 3rem;
+    margin-top: 20px;
+}
+.hero .hero-subtitle {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.hero .btn-primary {
+    margin-top: 20px;
+}
+
+.features {
+    padding-top: 50px;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.features .feature {
+    margin-bottom: 50px;
+}
+.features .feature .feature-image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    object-position: top;
+}
+.features .feature .feature-title {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.features .feature .feature-subtitle {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.cta {
+    background-color: #6c757d;
+    color: #fff;
+    padding: 50px 0;
+}
+.cta .cta-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.cta .cta-subtitle {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.cta .btn-danger {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #fff;
+    padding: 1rem 0;
+    margin-top: 50px;
+}
+
+.footer-text {
+    font-size: 1rem;
+}

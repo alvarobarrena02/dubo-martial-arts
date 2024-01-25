@@ -1,0 +1,199 @@
+{
+  "usuarios":[
+    {
+      "id": 1,
+      "name": "Mario García",
+      "email": "mario.garcia@gmail.com",
+      "role": "user",
+      "password": "mario"
+    },
+
+    {
+      "id": 2,
+      "name": "Julia Maroto",
+      "email": "julia.maroto@gmail.com",
+      "role": "user",
+      "password": "julia"
+    },
+
+    {
+      "id": 3,
+      "name": "Domingo Ortega",
+      "email": "domingo.ortega@gmail.com",
+      "role": "user",
+      "password": "domingo"
+    },
+
+    {
+      "id": 4,
+      "name": "Marta Sánchez",
+      "email": "marta.sanchez@gmail.com",
+      "role": "user",
+      "password": "morris"
+    },
+
+    {
+      "id": 5,
+      "name": "Santiago Segura",
+      "email": "santiago.segura@gmail.com",
+      "role": "user",
+      "password": "santiago"
+    },
+
+    {
+      "id": 6,
+      "name": "Alvaro García",
+      "email": "alvaro.garcía@gmail.com",
+      "role": "user",
+      "password": "alvaro"
+    },
+
+    {
+      "id": 7,
+      "name": "Jorge Perez",
+      "email": "jorge.perez@gmail.com",
+      "role": "user",
+      "password": "jorge"
+    },
+
+    {
+      "id": 8,
+      "name": "Maria Rodriguez",
+      "email": "maria.rodriguez@gmail.com",
+      "role": "user",
+      "password": "maria"
+    },
+
+    {
+        "id": 9,
+        "name": "Juan Lopez",
+        "email": "juan.lopez@gmail.com",
+        "role": "user",
+        "password": "juan"
+    },
+
+    {
+        "id": 10,
+        "name": "Ana Sanchez",
+        "email": "ana.sanchez@gmail.com",
+        "role": "user",
+        "password": "ana"
+    }
+  ],
+  "instructores": [
+    {
+      "id": 1,
+      "nombre": "Mauricio Gómez",
+      "img": "https://estaticos-cdn.prensaiberica.es/clip/cf87559a-1fb8-4b2a-9ef5-b9156f57fbd7_16-9-aspect-ratio_75p_0.jpg",
+      "cargo": "Propietario del gimnasio/Entrenador jefe de artes marciales",
+      "artesMarciales": [
+        { "nombre": "Judo", "dan": 4 },
+        { "nombre": "Jiujitsu", "dan": 3 },
+        { "nombre": "Karate", "dan": 1 }
+      ],
+      "acreditaciones": ["Muay Thai"]
+    },
+    {
+      "id": 2,
+      "nombre": "Sarah Nova",
+      "img": "https://c.superprof.com/i/a/24281851/12560415/600/20231018110832/instructora-karate-shotokan-skif-desarrolla-agilidad-destreza-para-enfrentar-mundo-cambiante-anos-experiencia.jpg",
+      "cargo": "Ayudante entrenador de artes marciales",
+      "artesMarciales": [
+        { "nombre": "Karate", "dan": 5 }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Guy Victory",
+      "img": "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/5472/Master-Jim-153201.jpg",
+      "cargo": "Entrenador asistente de artes marciales",
+      "artesMarciales": [
+        { "nombre": "Jiujitsu", "dan": 2 },
+        { "nombre": "Judo", "dan": 1 }
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Morris Davis",
+      "img": "https://angelmthai.com/wp-content/uploads/2020/11/JESUS-IGLESIAS-Instructor-Muay-Boran.jpg",
+      "cargo": "Asistente entrenador de artes marciales",
+      "artesMarciales": [
+        { "nombre": "Muay Thai" },
+        { "nombre": "Karate", "dan": 3 }
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Traci Santiago",
+      "img": "https://imgsrv2.voi.id/TdSVdTCYv5LRMhhrqq5XN77lrBXCh2d0vvMWf7WmJDI/auto/1200/675/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy8zOTk5Ny8yMDIxMDMyMDIwMjQtbWFpbi5jcm9wcGVkXzE2MTYyNDY3MDUuanBn.jpg",
+      "cargo": "Preparadora física",
+      "educacion": [
+        "Licenciatura en Ciencias del Deporte",
+        "Diplomado en salud y nutrición"
+      ],
+      "especialidad": "Diseñar programas de fuerza y acondicionamiento para atletas de combate"
+    },
+    {
+      "id": 6,
+      "nombre": "Harpreet Kaur",
+      "img": "https://tta-personalmedicina.es/wp-content/uploads/2021/06/Oferta-laboral-Fisioterapeuta.jpeg",
+      "cargo": "Preparador físico",
+      "educacion": [
+        "Licenciatura en Fisioterapia",
+        "Máster en Ciencias del Deporte"
+      ]
+    }
+  ],
+  "clases": [
+    {
+      "id": 1,
+      "nombre": "Clase de Karate Inicial",
+      "descripcion": "Clase introductoria para principiantes",
+      "img": "https://karateyalgomas.files.wordpress.com/2017/04/frases-de-karate.jpg",
+      "aforo": 20,
+      "horario": "Lunes y Miércoles 18:00 - 19:30",
+      "instructor": "Guy Victory",
+      "users": [1, 4, 5]
+    },
+    {
+      "id": 2,
+      "nombre": "Clase de Karate Intermedio",
+      "descripcion": "Para aquellos con experiencia intermedia",
+      "img": "https://www.rivasciudad.es/wp-content/uploads/2013/01/ClubJiuJitsu2013_0116010.jpg",
+      "aforo": 15,
+      "horario": "Martes y Jueves 20:00 - 21:30",
+      "instructor": "Morris Davis",
+      "users": [6, 7, 8, 9, 10]
+    },
+    {
+      "id": 3,
+      "nombre": "Clase de Karate Avanzado",
+      "descripcion": "Nivel avanzado para expertos",
+      "img": "https://img-c.udemycdn.com/course/750x422/5189822_0dba.jpg",
+      "aforo": 10,
+      "horario": "Viernes 19:00 - 20:30",
+      "instructor": "Mauricio Gómez",
+      "users": [1, 2, 3]
+    },
+    {
+      "id": 4,
+      "nombre": "Clase de Karate para Niños",
+      "descripcion": "Especialmente diseñada para niños",
+      "img": "https://cdn.shopify.com/s/files/1/0646/4097/files/ninos-karate_grande.jpg",
+      "aforo": 15,
+      "horario": "Sábados 10:00 - 11:30",
+      "instructor": "Sarah Nova",
+      "users": [4, 5, 6, 7, 8]
+    },
+    {
+      "id": 5,
+      "nombre": "Clase de Karate para Adultos",
+      "descripcion": "Dirigida a adultos de todos los niveles",
+      "img": "https://i0.wp.com/clubjmgalan.com/wp-content/uploads/2021/07/20130101-entrenamiento-karate-adultos-aplicaciones-tecnicas.jpg",
+      "aforo": 18,
+      "horario": "Domingos 16:00 - 17:30",
+      "instructor": "Mauricio Gómez",
+      "users": [9, 10, 1, 2, 3]
+    }
+  ]
+}
